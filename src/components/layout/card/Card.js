@@ -1,21 +1,25 @@
 import React from 'react';
-import './styles';
+import { ContentCard, Image, ProfileImage } from './styles';
 
 export const Card = ({ id, contentType, title, author, image }) => {
   return (
-    <div>
-      <img src={image.src} alt="banner" width="100" />
+    <ContentCard>
+      <Image>
+        <img src={image.src} alt={image.alt} />
+      </Image>
 
       <div>
-        {' '}
         {contentType.map((type) => (
           <span className={`typeName ${type}`}>{type}</span>
         ))}
       </div>
 
       <h1>{title}</h1>
-      <img src={author.image.src} alt={author.image.alt} width="100"></img>
+      <ProfileImage>
+        <img src={author.image.src} alt={author.image.alt}></img>
+      </ProfileImage>
+
       <p>{author.name}</p>
-    </div>
+    </ContentCard>
   );
 };
