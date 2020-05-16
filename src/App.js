@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useReducer, useEffect } from 'react';
+import ContentCard from './components/ContentCard';
+import axios from 'axios';
 import './App.css';
 
 function App() {
+  const [state, setState] = useReducer((prev, next) => ({ ...prev, ...next }), {
+    data: [],
+    contents: [],
+    paginated: [],
+    currentPage: 1,
+    contentPerPage: 6,
+    totalPages: 0,
+  });
+
+  useEffect(() => {
+    async function fetchContent() {
+      const res = await axios.get('./db.json');
+      setState({ data: res.data.data });
+      setState({ contents: res.data.data });
+    }
+    fetchContent();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {state.contents.map((content) => (
+        <ContentCard key={content.id} {...content} />
+      ))}
     </div>
   );
 }

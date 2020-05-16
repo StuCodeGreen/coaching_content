@@ -1,0 +1,367 @@
+{
+	"data": [{
+		"id": 1,
+		"contentType": ["video"],
+		"title": "1 to 1 Coaching: Sprinting Technique",
+		"author": {
+			"name": "James Parr",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/1.jpg",
+			"alt": "Two footballers jostling for the ball with a coach watching in the background."
+		}
+	}, {
+		"id": 2,
+		"contentType": ["video"],
+		"title": "1 to 1 Aerial Ball Control",
+		"author": {
+			"name": "Anthony Curran",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/2.jpg",
+			"alt": "A footballer dribbling with defenders chasing him."
+		}
+	}, {
+		"id": 3,
+		"contentType": ["webinar"],
+		"title": "Developing the Player and Person",
+		"author": {
+			"name": "Paul Bright",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/3.jpg",
+			"alt": "A football coach drawing on a flipboard."
+		}
+	}, {
+		"id": 4,
+		"contentType": ["animation"],
+		"title": "Penetration Into the Final Third Game",
+		"author": {
+			"name": "Jake Gardner",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/4.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}, {
+		"id": 5,
+		"contentType": ["webinar"],
+		"title": "Leadership in Academy Football",
+		"author": {
+			"name": "Lee Fletcher",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/5.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}, {
+		"id": 6,
+		"contentType": ["infographic"],
+		"title": "Midfielder Focus - How to play as an Attacking Midfielder",
+		"author": {
+			"name": "Frankie Maguire",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/6.jpg",
+			"alt": "Two football coaches chatting whilst sat in the stands."
+		}
+	}, {
+		"id": 7,
+		"contentType": ["infographic"],
+		"title": "Developing Your First Touch",
+		"author": {
+			"name": "James Parr",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/3.jpg",
+			"alt": "A football coach drawing on a flipboard."
+		}
+	}, {
+		"id": 8,
+		"contentType": ["animation"],
+		"title": "Playing Out from the Back - Law 16",
+		"author": {
+			"name": "Anthony Curran",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/2.jpg",
+			"alt": "A footballer dribbling with defenders chasing him."
+		}
+	}, {
+		"id": 9,
+		"contentType": ["webinar"],
+		"title": "Teaching Players the Offside Rule",
+		"author": {
+			"name": "Paul Bright",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/1.jpg",
+			"alt": "Two footballers jostling for the ball with a coach watching in the background."
+		}
+	}, {
+		"id": 10,
+		"contentType": ["animation"],
+		"title": "Multi Directional - Conditioned Game",
+		"author": {
+			"name": "Jake Gardner",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/4.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}, {
+		"id": 11,
+		"contentType": ["animation"],
+		"title": "Back to Back Goal - Conditioned Game",
+		"author": {
+			"name": "Lee Fletcher",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/6.jpg",
+			"alt": "Two football coaches chatting whilst sat in the stands."
+		}
+	}, {
+		"id": 12,
+		"contentType": ["infographic"],
+		"title": "Midfielder Focus - How to play as an Attacking Midfielder",
+		"author": {
+			"name": "Frankie Maguire",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/5.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}, {
+		"id": 13,
+		"contentType": ["animation"],
+		"title": "1 to 1 Coaching: Sprinting Technique",
+		"author": {
+			"name": "James Parr",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/1.jpg",
+			"alt": "Two footballers jostling for the ball with a coach watching in the background."
+		}
+	}, {
+		"id": 14,
+		"contentType": ["animation"],
+		"title": "1 to 1 Aerial Ball Control",
+		"author": {
+			"name": "Anthony Curran",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/2.jpg",
+			"alt": "A footballer dribbling with defenders chasing him."
+		}
+	}, {
+		"id": 15,
+		"contentType": ["video", "infographic"],
+		"title": "Developing the Player and Person",
+		"author": {
+			"name": "Paul Bright",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/3.jpg",
+			"alt": "A football coach drawing on a flipboard."
+		}
+	}, {
+		"id": 16,
+		"contentType": ["webinar"],
+		"title": "Penetration Into the Final Third Game",
+		"author": {
+			"name": "Jake Gardner",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/4.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}, {
+		"id": 17,
+		"contentType": ["video"],
+		"title": "Leadership in Academy Football",
+		"author": {
+			"name": "Lee Fletcher",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/5.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}, {
+		"id": 18,
+		"contentType": [],
+		"title": "Midfielder Focus - How to play as an Attacking Midfielder",
+		"author": {
+			"name": "Frankie Maguire",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/6.jpg",
+			"alt": "Two football coaches chatting whilst sat in the stands."
+		}
+	}, {
+		"id": 19,
+		"contentType": ["infographic"],
+		"title": "Developing Your First Touch",
+		"author": {
+			"name": "James Parr",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/3.jpg",
+			"alt": "A football coach drawing on a flipboard."
+		}
+	}, {
+		"id": 20,
+		"contentType": ["animation"],
+		"title": "Playing Out from the Back - Law 16",
+		"author": {
+			"name": "Anthony Curran",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "",
+			"alt": ""
+		}
+	}, {
+		"id": 21,
+		"contentType": ["webinar"],
+		"title": "Teaching Players the Offside Rule",
+		"author": {
+			"name": "Paul Bright",
+			"image": {
+				"src": "",
+				"alt": ""
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/1.jpg",
+			"alt": "Two footballers jostling for the ball with a coach watching in the background."
+		}
+	}, {
+		"id": 22,
+		"contentType": ["animation", "video"],
+		"title": "Multi Directional - Conditioned Game",
+		"author": {
+			"name": "Jake Gardner",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/4.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}, {
+		"id": 23,
+		"contentType": ["video"],
+		"title": "Back to Back Goal - Conditioned Game",
+		"author": {
+			"name": "Lee Fletcher",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_1.jpg",
+				"alt": "Portrait of a man smiling."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/6.jpg",
+			"alt": "Two football coaches chatting whilst sat in the stands."
+		}
+	}, {
+		"id": 24,
+		"contentType": ["infographic"],
+		"title": "Midfielder Focus - How to play as an Attacking Midfielder",
+		"author": {
+			"name": "Frankie Maguire",
+			"image": {
+				"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/avatar_2.jpg",
+				"alt": "Portrait of a man."
+			}
+		},
+		"image": {
+			"src": "https://cdn.thecoachingmanual.com/front_end_technical_test_assets/5.jpg",
+			"alt": "A football coach giving a team talk to his players."
+		}
+	}],
+	"meta": {
+		"status_code": 200,
+		"reason": "ok"
+	}
+}
