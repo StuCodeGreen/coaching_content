@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect } from 'react';
-import ContentCard from './components/ContentCard';
+import Card from './components/layout/card';
 import axios from 'axios';
 import './App.css';
 
@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       {state.contents.map((content) => (
-        <ContentCard key={content.id} {...content} />
+        <Card key={content.id} {...content} />
       ))}
     </div>
   );
