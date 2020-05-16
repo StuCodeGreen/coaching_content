@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Card } from './components/layout/card';
 import axios from 'axios';
-import './App.css';
 import { useSetState } from './hooks/use-set-state';
 
 function App() {
