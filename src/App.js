@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Card } from './components/layout/card';
-import { Container } from './components/layout/globals';
+import { Container, Content } from './components/layout/globals';
 import axios from 'axios';
 import { useSetState } from './hooks/use-set-state';
 
@@ -25,11 +25,11 @@ function App() {
 
   return (
     <Container>
-      <div className="App">
+      <Content>
         {state.contents.map((content) => (
           <Card key={content.id} {...content} />
         ))}
-      </div>
+      </Content>
     </Container>
   );
 }
