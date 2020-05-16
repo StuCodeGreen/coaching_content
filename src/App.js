@@ -1,10 +1,11 @@
-import React, { useReducer, useEffect } from 'react';
-import Card from './components/layout/card';
+import React, { useEffect } from 'react';
+import { Card } from './components/layout/card';
 import axios from 'axios';
 import './App.css';
+import { useSetState } from './hooks/use-set-state';
 
 function App() {
-  const [state, setState] = useReducer((prev, next) => ({ ...prev, ...next }), {
+  const [state, setState] = useSetState({
     data: [],
     contents: [],
     paginated: [],
