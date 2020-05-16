@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Card } from './components/layout/card';
+import { Container } from './components/layout/globals';
 import axios from 'axios';
 import { useSetState } from './hooks/use-set-state';
 
@@ -23,11 +24,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      {state.contents.map((content) => (
-        <Card key={content.id} {...content} />
-      ))}
-    </div>
+    <Container>
+      <div className="App">
+        {state.contents.map((content) => (
+          <Card key={content.id} {...content} />
+        ))}
+      </div>
+    </Container>
   );
 }
 
