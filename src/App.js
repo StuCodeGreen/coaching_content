@@ -14,6 +14,15 @@ function App() {
     totalPages: 0,
   });
 
+  const pagination = (content, currentPage) => {
+    const indexOfLastCard = currentPage * state.contentPerPage;
+    const indexOfFirstCard = indexOfLastCard - state.contentPerPage;
+    const currentContent = content.slice(indexOfFirstCard, indexOfLastCard);
+    setState({
+      paginated: currentContent,
+    });
+  };
+
   useEffect(() => {
     async function fetchContent() {
       const res = await axios.get('./db.json');
@@ -23,10 +32,13 @@ function App() {
     fetchContent();
   }, []);
 
+  useEffect(() => {
+    pagination(state.contents, state.currentPage);
+  }, [state.contents, state.currentPage]);
   return (
     <Container>
       <Content>
-        {state.contents.map((content) => (
+        {state.paginated.map((content) => (
           <Card key={content.id} {...content} />
         ))}
       </Content>
