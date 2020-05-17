@@ -4,7 +4,7 @@
 
 ##### You can edit + preview this project in [CodeSandBox](https://codesandbox.io/s/happy-cookies-nr5xn)
 
-## `npm install` or `yarn install`
+### `npm install` or `yarn install`
 
 Will install dependencies from the package. json
 
