@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const PageSelector = styled('div')`
-  outline: 1px dashed red;
   display: flex;
   justify-content: center;
   position: relative;

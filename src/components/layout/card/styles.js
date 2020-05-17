@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const ContentCard = styled('div')`
-  outline: 1px dashed red;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-rows: 340px 24px auto auto;
   width: 340px;
   min-height: 544px;
   grid-template-areas:
@@ -12,13 +11,12 @@ export const ContentCard = styled('div')`
     'type '
     'title '
     'author ';
-  grid-gap: 20px;
   background: #fff;
 `;
 
 export const ContentType = styled('div')`
-  outline: 1px dashed red;
   grid-area: type;
+  margin-top: 30px;
   padding: 0px 30px;
   .typeName {
     font-family: Montserrat;
@@ -49,10 +47,10 @@ export const ContentType = styled('div')`
 
 export const Title = styled('div')`
   padding: 0px 30px;
+  margin-top: 42px;
 `;
 
 export const Image = styled('div')`
-  outline: 1px dashed red;
   grid-area: photo;
   height: 340px;
   img {
@@ -63,18 +61,17 @@ export const Image = styled('div')`
 `;
 
 export const Profile = styled('div')`
-  outline: 1px dashed red;
   grid-area: author;
   display: flex;
   align-items: center;
   padding: 0px 30px;
+  margin: 30px 0px;
   img {
     width: 30px;
     height: 30px;
     border-radius: 100%;
   }
   p {
-    outline: 1px dashed red;
     color: #555555;
     font-size: 12px;
     font-weight: 500;

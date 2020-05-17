@@ -27,7 +27,10 @@ const GlobalStyle = createGlobalStyle`
   body {
     box-sizing: border-box;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  }
+	}
+	div {
+		outline: 1px dashed red;
+	}
 `;
 
 export default GlobalStyle;
