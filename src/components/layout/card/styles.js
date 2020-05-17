@@ -76,5 +76,6 @@ export const Profile = styled('div')`
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
+    margin-left: 6px;
   }
 `;
