@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const PageSelector = styled('div')`
+  outline: 1px dashed red;
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 60px;
 
   .pages {
     display: inline-block;
@@ -11,7 +13,7 @@ export const PageSelector = styled('div')`
     height: 12px;
     background-color: #cccccc;
     border-radius: 10px;
-    margin-right: 12px;
+    margin: 0px 6px;
   }
 
   .pages.active {
