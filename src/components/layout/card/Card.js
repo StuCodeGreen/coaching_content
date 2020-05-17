@@ -8,15 +8,11 @@ export const Card = ({ id, contentType, title, author, image }) => {
       <Image>
         <img src={image.src} alt={image.alt} />
       </Image>
-
-      <div>
-        <ContentType>
-          {contentType.map((type) => (
-            <span className={`typeName ${type}`}>{type}</span>
-          ))}
-        </ContentType>
-      </div>
-
+      <ContentType>
+        {contentType.map((type) => (
+          <span className={`typeName ${type}`}>{type}</span>
+        ))}
+      </ContentType>
       <Title>
         <H2>{title}</H2>
       </Title>

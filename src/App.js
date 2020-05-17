@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Header } from './components/layout/header';
 import { Card } from './components/layout/card';
 import { Container, Content } from './components/layout/globals';
 import axios from 'axios';
@@ -55,6 +56,7 @@ function App() {
   }, [state.contents, state.currentPage]);
   return (
     <Container>
+      <Header />
       <Content>
         {state.paginated.map((content) => (
           <Card key={content.id} {...content} />

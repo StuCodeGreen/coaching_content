@@ -64,8 +64,8 @@ export const Profile = styled('div')`
   grid-area: author;
   display: flex;
   align-items: center;
-  padding: 0px 30px;
-  margin: 30px 0px;
+  padding: 30px;
+
   img {
     width: 30px;
     height: 30px;
