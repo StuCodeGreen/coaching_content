@@ -19,6 +19,7 @@ export const ContentCard = styled('div')`
 export const ContentType = styled('div')`
   outline: 1px dashed red;
   grid-area: type;
+  padding: 0px 30px;
   .typeName {
     font-family: Montserrat;
     font-style: normal;
@@ -46,6 +47,10 @@ export const ContentType = styled('div')`
   }
 `;
 
+export const Title = styled('div')`
+  padding: 0px 30px;
+`;
+
 export const Image = styled('div')`
   outline: 1px dashed red;
   grid-area: photo;
@@ -62,6 +67,7 @@ export const Profile = styled('div')`
   grid-area: author;
   display: flex;
   align-items: center;
+  padding: 0px 30px;
   img {
     width: 30px;
     height: 30px;
@@ -69,6 +75,9 @@ export const Profile = styled('div')`
   }
   p {
     outline: 1px dashed red;
-    font-size: 10px;
+    color: #555555;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
   }
 `;

@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     -webkit-font-smoothing: antialiased;
     overflow-wrap: break-word;
-    background-color: #e5e5e5;
+    background-color: #E5E5E5;
   }
   body {
     box-sizing: border-box;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContentCard, Image, Profile, ContentType } from './styles';
+import { ContentCard, Image, Profile, ContentType, Title } from './styles';
 import { H2 } from '../../core/typography';
 
 export const Card = ({ id, contentType, title, author, image }) => {
@@ -17,7 +17,9 @@ export const Card = ({ id, contentType, title, author, image }) => {
         </ContentType>
       </div>
 
-      <H2>{title}</H2>
+      <Title>
+        <H2>{title}</H2>
+      </Title>
       <Profile>
         <img src={author.image.src} alt={author.image.alt}></img>
         <p>{author.name}</p>
