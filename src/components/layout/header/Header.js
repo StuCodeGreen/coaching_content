@@ -1,23 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
+import { H1 } from '../../core/typography';
 
 const StyledComponent = styled('div')`
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  outline: 2px dashed red;
+  flex: 0 0 auto;
   max-width: 1060px;
   width: 100%;
-  flex: 0 0 auto;
-  height: 80px;
+  height: 37px;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 `;
 
 export const Header = () => {
   return (
     <StyledComponent>
-      <h1>Left</h1>
-      <h1>right</h1>
+      <H1>Your Content</H1>
     </StyledComponent>
   );
 };

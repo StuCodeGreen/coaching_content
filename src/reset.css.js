@@ -5,7 +5,8 @@ const GlobalStyle = createGlobalStyle`
     border: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: auto;
-    font-weight: inherit;
+		font-weight: inherit;
+		font-style: normal;
     margin: 0;
     outline: 0;
     padding: 0;
@@ -27,9 +28,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     box-sizing: border-box;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-	}
-	div {
-		outline: 1px dashed red;
 	}
 `;
 

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Header } from './components/layout/header';
 import { Card } from './components/layout/card';
 import { Container, Content } from './components/layout/globals';
+import { H2 } from './components/core/typography';
 import axios from 'axios';
 import { useSetState } from './hooks/use-set-state';
 import { CardPagination } from './components/layout/pagination';
@@ -42,6 +43,14 @@ function App() {
     pagination(state.contents, Number(target.id));
   };
 
+  function loaded(data) {
+    if (data.length > 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   useEffect(() => {
     async function fetchContent() {
       const res = await axios.get('./db.json');
@@ -54,7 +63,7 @@ function App() {
   useEffect(() => {
     pagination(state.contents, state.currentPage);
   }, [state.contents, state.currentPage]);
-  return (
+  return loaded(state.paginated) ? (
     <Container>
       <Header />
       <Content>
@@ -68,6 +77,8 @@ function App() {
         selectedPage={selectedPage}
       />
     </Container>
+  ) : (
+    <H2>Loading...</H2>
   );
 }
 
