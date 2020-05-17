@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContentCard, Image, ProfileImage } from './styles';
+import { ContentCard, Image, Profile, ContentType } from './styles';
 
 export const Card = ({ id, contentType, title, author, image }) => {
   return (
@@ -9,17 +9,18 @@ export const Card = ({ id, contentType, title, author, image }) => {
       </Image>
 
       <div>
-        {contentType.map((type) => (
-          <span className={`typeName ${type}`}>{type}</span>
-        ))}
+        <ContentType>
+          {contentType.map((type) => (
+            <span className={`typeName ${type}`}>{type}</span>
+          ))}
+        </ContentType>
       </div>
 
       <h1>{title}</h1>
-      <ProfileImage>
+      <Profile>
         <img src={author.image.src} alt={author.image.alt}></img>
-      </ProfileImage>
-
-      <p>{author.name}</p>
+        <p>{author.name}</p>
+      </Profile>
     </ContentCard>
   );
 };

@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const ContentCard = styled('div')`
+  outline: 1px dashed red;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   width: 340px;
-  height: 544px;
+  min-height: 544px;
   grid-template-areas:
     'photo '
     'type '
@@ -15,10 +16,40 @@ export const ContentCard = styled('div')`
   background: #fff;
 `;
 
+export const ContentType = styled('div')`
+  outline: 1px dashed red;
+  grid-area: type;
+  .typeName {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 6px 12px;
+    margin: 3px;
+    border-radius: 1000px;
+  }
+  .video {
+    background: #37cda8;
+  }
+  .webinar {
+    background: #ffbd13;
+  }
+  .animation {
+    background: #3b4ce4;
+  }
+  .infographic {
+    background: #de5114;
+  }
+`;
+
 export const Image = styled('div')`
+  outline: 1px dashed red;
   grid-area: photo;
   height: 340px;
-  outline: 1px dashed red;
   img {
     width: 100%;
     height: 100%;
@@ -26,12 +57,18 @@ export const Image = styled('div')`
   }
 `;
 
-export const ProfileImage = styled('div')`
-  grid-area: author;
+export const Profile = styled('div')`
   outline: 1px dashed red;
+  grid-area: author;
+  display: flex;
+  align-items: center;
   img {
     width: 30px;
     height: 30px;
     border-radius: 100%;
+  }
+  p {
+    outline: 1px dashed red;
+    font-size: 10px;
   }
 `;
