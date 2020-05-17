@@ -9,7 +9,6 @@ import { CardPagination } from './components/layout/pagination';
 
 function App() {
   const [state, setState] = useSetState({
-    data: [],
     contents: [],
     paginated: [],
     currentPage: 1,
@@ -54,7 +53,6 @@ function App() {
   useEffect(() => {
     async function fetchContent() {
       const res = await axios.get('./db.json');
-      setState({ data: res.data.data });
       setState({ contents: res.data.data });
     }
     fetchContent();
