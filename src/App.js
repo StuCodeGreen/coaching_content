@@ -56,10 +56,12 @@ function App() {
       setState({ contents: res.data.data });
     }
     fetchContent();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
     pagination(state.contents, state.currentPage);
+    // eslint-disable-next-line
   }, [state.contents, state.currentPage]);
   return loaded(state.paginated) ? (
     <Container>
